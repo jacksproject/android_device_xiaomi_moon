@@ -82,6 +82,7 @@ BOARD_HAS_MTK_HARDWARE := true
 # Recovery
 BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
 BOARD_INCLUDE_RECOVERY_RAMDISK_IN_VENDOR_BOOT := true
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6768
 
 # Inherit the proprietary files
 include vendor/xiaomi/moon/BoardConfigVendor.mk
