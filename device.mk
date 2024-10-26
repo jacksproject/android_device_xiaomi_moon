@@ -50,6 +50,9 @@ PRODUCT_PACKAGES += \
     init.sensor_1_0.rc \
     ueventd.rc
 
+PRODUCT_PACKAGES += \
+    init.recovery.mt6768.rc
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
