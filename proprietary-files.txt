@@ -1,5 +1,9 @@
 # Unpinned blobs from moon_global-user 14 UP1A.231005.007 V816.0.7.0.UNTMIXM release-keys
 
+# AEE
+vendor/lib/libaedv.so
+vendor/lib64/libaedv.so
+
 # Display
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
