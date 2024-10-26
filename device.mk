@@ -34,6 +34,11 @@ PRODUCT_PACKAGES += \
     update_engine_sideload \
     update_verifier
 
+# Fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd \
+    android.hardware.fastboot@1.0-impl-mock
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
