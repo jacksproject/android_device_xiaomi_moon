@@ -48,6 +48,7 @@ TARGET_SCREEN_DENSITY := 320
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
+DEVICE_MATRIX_FILE += $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
 
 # Kernel
 BOARD_BOOTIMG_HEADER_VERSION := 2
