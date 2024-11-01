@@ -90,6 +90,8 @@ BOARD_XIAOMI_DYNAMIC_PARTITIONS_SIZE := 9122611200
 
 BOARD_USES_METADATA_PARTITION := true
 
+-include vendor/lineage/config/BoardConfigReservedSize.mk
+
 # Platform
 TARGET_BOARD_PLATFORM := mt6768
 BOARD_HAS_MTK_HARDWARE := true
