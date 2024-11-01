@@ -195,6 +195,14 @@ PRODUCT_PACKAGES += \
     init.recovery.mt6768.rc
 
 # Overlays
+PRODUCT_PACKAGES += \
+    FrameworksResOverlayMoon \
+    SystemUIOverlayMoon \
+    WifiResOverlayMoon
+
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Sensors
