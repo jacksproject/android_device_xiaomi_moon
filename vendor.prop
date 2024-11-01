@@ -55,6 +55,10 @@ ro.vendor.mtk_camera_app_version=3
 vendor.camera.mdp.cz.enable=1
 vendor.camera.mdp.dre.enable=0
 
+# Chipset
+ro.soc.manufacturer=Mediatek
+ro.soc.model=MT6768
+
 # Connsys
 persist.vendor.connsys.chipid=-1
 persist.vendor.connsys.coredump.mode=0
