@@ -38,6 +38,11 @@ PRODUCT_PACKAGES += \
     update_engine_sideload \
     update_verifier
 
+# ADB
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.adb.secure=0 \
+    ro.debuggable=1
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@7.0-impl \
@@ -269,7 +274,7 @@ PRODUCT_PACKAGES += \
     init.mt6768.usb.rc \
     init.project.rc \
     init.sensor_1_0.rc \
-    ueventd.rc
+    ueventd.mt6768.rc
 
 PRODUCT_PACKAGES += \
     init.recovery.mt6768.rc
