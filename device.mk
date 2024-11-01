@@ -89,6 +89,10 @@ PRODUCT_PACKAGES += \
     libdrm.vendor \
     libutils-v32
 
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.4.vendor
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd \
