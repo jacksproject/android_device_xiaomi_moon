@@ -120,7 +120,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 
 # SELinux
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
-
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Security Patch Level
 VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
