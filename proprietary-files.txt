@@ -781,13 +781,17 @@ vendor/bin/hw/vendor.silead.hardware.fingerprintext@1.0-service
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/etc/init/vendor.silead.hardware.fingerprintext@1.0-service.rc
 -vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml
--vendor/etc/vintf/manifest/vendor.silead.hardware.fingerprintext@1.0-service.xml
 vendor/lib/hw/fingerprint.silead.so
+vendor/lib/libsl_fp_impl.so
 vendor/lib64/hw/fingerprint.goodix.so
 vendor/lib64/hw/fingerprint.silead.so
+vendor/lib64/hw/vendor.xiaomi.hardware.fingerprintextension@1.0.so
+vendor/lib64/libgf_ca.so
+vendor/lib64/libgf_hal.so
+vendor/lib64/libgoodixhwfingerprint.so
+vendor/lib64/libmifpext.so
 vendor/lib64/libsl_fp_impl.so
-vendor/lib64/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so
-vendor/lib64/vendor.silead.hardware.fingerprintext@1.0.so
+vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so
 
 # Fuelgauge
 vendor/bin/fuelgauged
@@ -902,7 +906,6 @@ vendor/lib64/libvpu5.so
 vendor/bin/hw/android.hardware.media.c2@1.2-mediatek
 vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b
 vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc
--vendor/etc/vintf/manifest/manifest_media_c2_V1_1_default.xml
 vendor/lib/libcodec2_mtk_c2store.so
 vendor/lib/libcodec2_mtk_vdec.so
 vendor/lib/libcodec2_mtk_venc.so
@@ -1130,6 +1133,7 @@ vendor/etc/thermal-huanji.conf
 vendor/etc/thermal-iqiyi.conf
 vendor/etc/thermal-map.conf
 vendor/etc/thermal-mgame.conf
+vendor/etc/thermal-navigation.conf
 vendor/etc/thermal-nolimits.conf
 vendor/etc/thermal-normal.conf
 vendor/etc/thermal-phone.conf
@@ -1173,9 +1177,9 @@ vendor/thh/ta/40188311faf343488db888ad39496f9a.ta
 vendor/thh/ta/5020170115e016302017012521300000.ta
 vendor/thh/ta/511ead0a000000000000000000000000.ta
 vendor/thh/ta/655a4b46cd7711eaaafbf382a6988e7b.ta
-vendor/thh/ta/7778c03fc30c4dd0a319ea29643d4d4b.ta
-vendor/thh/ta/7778c03fc30c4dd0a319ea29643d4dc0.ta
 vendor/thh/ta/86f623f6a2994dfdb560ffd3e5a62c29.ta
+vendor/thh/ta/8888c03fc30c4dd0a319ea29643d4d4b.ta
+vendor/thh/ta/8aaaf201246000007143fe4f7c823c80.ta
 vendor/thh/ta/9073f03a9618383bb1856eb3f990babd.ta
 vendor/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta
 vendor/thh/ta/98fb95bcb4bf42d26473eae48690d7ea.ta
@@ -1185,7 +1189,6 @@ vendor/thh/ta/d78d338b1ac349e09f65f4efe179739d.ta
 vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta
 vendor/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta
 vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta
-vendor/thh/ta/fc32e4da17d342449b01c992d56d71bf.ta
 vendor/thh/ta/isee_model.json
 
 # USB
